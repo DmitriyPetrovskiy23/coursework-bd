@@ -1,0 +1,12 @@
+.container-home {
+  width: 100%;
+  height: calc(100vh - 55px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-home {
+  color: #4caf50;
+  font-weight: 900;
+}

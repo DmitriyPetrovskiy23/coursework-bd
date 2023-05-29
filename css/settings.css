@@ -1,0 +1,53 @@
+.container-settings {
+  display: flex;
+  justify-content: space-between;
+}
+
+.table-settings thead tr th {
+  border-top-left-radius: 20px !important;
+}
+
+.table-settings tbody tr:last-child td:last-child {
+  border-bottom-left-radius: 20px !important;
+  max-width: none;
+}
+
+.table-settings tbody tr td {
+  display: flex;
+  justify-content: space-between;
+}
+
+.settings_rights {
+  width: 100%;
+}
+.settings_structural_division {
+  width: 100%;
+}
+
+.form-addparam {
+  width: 100%;
+}
+
+.input-param {
+  width: 68%;
+  border-radius: 20px;
+  border: 1px solid #a2a2a2;
+  padding: 6px 3px;
+}
+
+.button-param {
+  border-radius: 20px;
+  height: 29px;
+  width: 30%;
+}
+
+.delete-param {
+  color: red;
+  text-decoration: none;
+}
+
+.header-changeusers {
+  text-align: center;
+  color: #4caf50;
+  font-weight: 900;
+}

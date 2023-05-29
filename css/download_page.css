@@ -1,0 +1,100 @@
+.input-file-container {
+  position: relative;
+  width: 225px;
+  margin-top: 50px;
+}
+.js .input-file-trigger,
+.submit-foto {
+  display: block;
+  padding: 14px 45px;
+  background: #4caf50;
+  color: #fff;
+  font-size: 1em;
+  transition: all 0.4s;
+  cursor: pointer;
+}
+.js .input-file {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 225px;
+  opacity: 0;
+  padding: 14px 0;
+  cursor: pointer;
+}
+.js .input-file:hover + .input-file-trigger,
+.js .input-file:focus + .input-file-trigger,
+.js .input-file-trigger:hover,
+.js .input-file-trigger:focus,
+.submit-foto:hover {
+  background: #23d029;
+  color: white;
+  cursor: pointer;
+}
+
+.file-return {
+  margin: 0;
+}
+.file-return:not(:empty) {
+  margin: 1em 0;
+}
+.js .file-return {
+  font-style: italic;
+  font-size: 0.9em;
+  font-weight: bold;
+  word-wrap: break-word;
+}
+.js .file-return:not(:empty):before {
+  content: "Выбрано фото ";
+  font-style: normal;
+  font-weight: normal;
+}
+
+.form-download-foto {
+  width: 225px;
+  margin: 0 auto;
+  text-align: center;
+  height: calc(100vh - 55px);
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.submit-foto {
+  display: none;
+  border: none;
+  padding: 14px 52px;
+  margin: 0;
+  margin-top: 20px;
+}
+
+.img-parent {
+  height: calc(100vh - 55px);
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.img-center {
+  display: block;
+  max-height: 400px;
+}
+
+.img-status {
+  margin-top: 15px;
+}
+
+.img-moder {
+  color: blue;
+  font-weight: 900;
+  text-align: center;
+}
+
+.img-yes {
+  color: green;
+  font-weight: 900;
+}
